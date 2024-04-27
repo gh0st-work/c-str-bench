@@ -20,7 +20,7 @@
   - We are not in 70s, even in embedded
   - `size_t` is 32-64 bits, not so far from 8 bits (`char` for null-terminator)
   - U use `size_t` everywhere anyways
-- `malloc` is considered bad as it's a long syscall, perfect arena is used instead (RAII (C++ & Rust) is considered bad for mallocing too much kekw)
+- `malloc` is considered bad as it's a long syscall (RAII (C++ & Rust) is considered bad for mallocing too much kekw)
   - Arena alloc is used instead
 - `memmove` is optimized af
   - I know it for sure as once tried to reimplement it on SSE+AVX, I've failed only reaching extremely close performance (~1% diff) to `memmove` in most cases
