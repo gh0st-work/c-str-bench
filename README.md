@@ -42,8 +42,8 @@
   - 368+132 = 500
 - Stats design:
   - Parse and store data (float timing seconds) for multiple runs
-  - Select stats metric (avg or med)
-  - Select implementation variant (nl or l, nl for example)
+  - Select stats metric (avg/med/p5/p10/p90/p95)
+  - Select implementation variant (nl/l, nl for example)
   - Calculate and store "time saved" percent for each run (dt/c-string nl)
     - ((this implementation nl timing for this run)-(c-string nl timing for this run))/(c-string nl timing for this run)*100
     - So they are dependent on its own run
