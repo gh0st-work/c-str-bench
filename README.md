@@ -2,7 +2,7 @@
 - C-strings - null-terminated char array
 - ptr+len - pointer to the start of the buffer and its length in a struct
 - ptr+ptr_end - pointer to the start of the buffer and pointer to the end
-- Idea: thought about [this thread](https://news.ycombinator.com/item?id=26349027) being pathetic, bcuz of thinking in terms of some imaginary bs, also I was selecting string implementation for personal use
+- Idea: thought about [this thread](https://news.ycombinator.com/item?id=26349027) being pathetic for thinking in terms of some imaginary bs, also I was choosing string implementation for personal use
 
 ### Assumptions:
 - C-strings are more error-prone and generally inconvenient & possibly require more compute to calc len
