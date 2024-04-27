@@ -1,0 +1,12 @@
+value = 
+10
+ERROR: 
+../lsp/rpc.lua:734
+Quisque id orci et lorem volutpat. 
+In est leo vel.
+Aliquam id ultrices libero. Curabitur proin. 
+Quisque maximus feugiat risus, sit amet venenatis nisi.
+Pellentesque eget turpis ipsum. Vivamus ut posuere felis. Donec lobortis sem mauris, vel eleifend. 
+Praesent eu tempus turpis. Donec leo lorem, malesuada ut fermentum at, euismod quis mi. Proin bibendum risus quis tristique efficitur. Vestibulum cras.
+Maecenas aliquam elit erat, et finibus magna eleifend vitae. Aliquam sit amet velit at felis vestibulum sodales dapibus et nisi. Curabitur sollicitudin sodales placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar lectus bibendum est egestas, ac sagittis ex varius. Ut rhoncus cursus aliquam. Pellentesque habitant morbi dapibus nam. 
+Aliquam ac accumsan felis. Pellentesque et augue eu sapien interdum suscipit. Sed quis massa sodales, egestas tellus sed erat curae.
