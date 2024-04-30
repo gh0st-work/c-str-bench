@@ -3,6 +3,7 @@
 - ptr+len - pointer to the start of the buffer and its length in a struct
 - ptr+ptr_end - pointer to the start of the buffer and pointer to the end
 - Idea: thought about [this thread](https://news.ycombinator.com/item?id=26349027) being pathetic for thinking in terms of some imaginary bs, also I was choosing string implementation for personal use
+- **TL;DR: There is "Conclusions" section at the end**
 
 ### Assumptions:
 - C-strings are more error-prone and generally inconvenient & possibly require more compute to calc len
