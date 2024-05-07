@@ -1101,14 +1101,14 @@ l
 ```
 
 ### Conclusions:
-- nnt is faster than nt (sanity++)
+- nnt (Non-Null-Terminated) is faster than nt (Null-Terminated) (sanity++)
 - custom string implementations are always significantly faster (avg: -62% - -6%, med: -71% - -9%) in performance than native c-strings
 - custom string implementations are comparable (~equal, avg: -12% - +30%, med: -28% - +8%) in performance with native c-string with length provided
 - gcc compiler is faster by ~30-35% on average for this benchmark
 - gcc
-  - str1 significantly wins on len 500 (and more, I suppose)
+  - ptr+len significantly wins on len 500 (and more, I suppose)
 - clang
-  - str2 significantly wins on len 10-250, str1 significantly wins on len 500 (and more, I suppose)
+  - ptr+ptr_end significantly wins on len 10-250, ptr+len significantly wins on len 500 (and more, I suppose)
 
 ### Devlog:
 - [x] Basic
